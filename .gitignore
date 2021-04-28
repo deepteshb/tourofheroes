@@ -33,6 +33,7 @@ speed-measure-plugin*.json
 .editorconfig
 .angularappworkspace.code.workspace
 
+
 # misc
 /.sass-cache
 /connect.lock
