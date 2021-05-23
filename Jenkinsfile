@@ -7,9 +7,10 @@ pipeline {
         git(url: 'https://github.com/deepteshb/tourofheroes.git', branch: 'master', credentialsId: 'deepteshgithub')
       }
     }
-   stage('npm-build') {
+   stage('build') {
      steps {
-        sh "npm build"
-      }
+        sh 'npm build'
+     }
+   }
   }
 }
